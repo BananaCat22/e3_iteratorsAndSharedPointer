@@ -1,0 +1,57 @@
+# cmake exclusion from (https://raw.githubusercontent.com/github/gitignore/main/CMake.gitignore)
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Do not put build directory in repository
+build
+
+# Do not put docs in repository because they can be regenerated
+docs
+
+# Do not put profile data in repository
+*.profraw
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Mac Nonsense
+.DS_Store
